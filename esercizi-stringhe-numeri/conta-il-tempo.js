@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var nseconds = 12560;
+
+
+hours =  Math.floor (nseconds/ 3600);
+minutes = Math.floor ((nseconds / 60) - (hours*60));
+seconds = Math.floor (nseconds - (minutes*60) - (hours*3600));
+
+console.log(+hours +' ore, ' +minutes +' minuti, ' +seconds +' secondi.')
