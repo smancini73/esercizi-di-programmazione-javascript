@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var actualyear = 2018;
+var birthyear = 1991;
+
+age = actualyear - birthyear;
+yearsto100 = 100 - age;
+
+console.log('eta = ' +age +', anni mancanti = ' +yearsto100);
