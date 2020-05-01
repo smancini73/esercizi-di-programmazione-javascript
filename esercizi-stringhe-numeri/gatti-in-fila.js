@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var catsinrow = 6;
+
+rows = Math.ceil(cats / catsinrow);
+
+missing_cats = (rows*catsinrow) - cats;
+
+console.log('numero di file = ' +rows +', gatti mancanti = ' +missing_cats);
